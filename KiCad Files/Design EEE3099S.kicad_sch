@@ -1,0 +1,66 @@
+(kicad_sch (version 20211123) (generator eeschema)
+
+  (uuid bf8bfbb4-4b7a-430e-865f-8acab9f8c04d)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 38.354 34.544) (size 75.946 55.88) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid 0c0442e2-0379-476d-aa5a-9a1d983a9f57)
+    (property "Sheet name" "Light Colour Sensor" (id 0) (at 38.354 33.8324 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "lightcoloursensor.kicad_sch" (id 1) (at 38.354 91.0086 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+    (path "/0c0442e2-0379-476d-aa5a-9a1d983a9f57" (page "2"))
+  )
+
+  (symbol_instances
+    (path "/0c0442e2-0379-476d-aa5a-9a1d983a9f57/3b6ef670-4302-41d4-8379-e213696d052f"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/0c0442e2-0379-476d-aa5a-9a1d983a9f57/44d62083-6448-4c18-8ca2-2efba9a4c536"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/0c0442e2-0379-476d-aa5a-9a1d983a9f57/a7318f74-931d-4cf5-b506-e2d02cd5c058"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/0c0442e2-0379-476d-aa5a-9a1d983a9f57/39be6f6d-a8e2-491d-9382-9ea783fee343"
+      (reference "D?") (unit 1) (value "D_Small") (footprint "")
+    )
+    (path "/0c0442e2-0379-476d-aa5a-9a1d983a9f57/32fd1aaf-d85e-4f6a-89f5-6ec32d0b0ef7"
+      (reference "R?") (unit 1) (value "R_Variable") (footprint "")
+    )
+    (path "/0c0442e2-0379-476d-aa5a-9a1d983a9f57/4c5eb8b7-32c0-4ee1-9e3e-ad6f5d0053c9"
+      (reference "R?") (unit 1) (value "R_Small") (footprint "")
+    )
+    (path "/0c0442e2-0379-476d-aa5a-9a1d983a9f57/8152975e-d0ff-477b-a615-e70b3ab12bda"
+      (reference "R?") (unit 1) (value "LDRGreen") (footprint "OptoDevice:R_LDR_10x8.5mm_P7.6mm_Vertical")
+    )
+    (path "/0c0442e2-0379-476d-aa5a-9a1d983a9f57/b49ff4eb-12f4-4743-a75e-00e4bee4ced3"
+      (reference "R?") (unit 1) (value "R_Variable") (footprint "")
+    )
+    (path "/0c0442e2-0379-476d-aa5a-9a1d983a9f57/d0b769b6-06ed-47a7-ada4-9994db5d30d1"
+      (reference "R?") (unit 1) (value "LDRRed") (footprint "OptoDevice:R_LDR_10x8.5mm_P7.6mm_Vertical")
+    )
+    (path "/0c0442e2-0379-476d-aa5a-9a1d983a9f57/ed01da2f-4b6a-4a48-bd72-c3723d80070a"
+      (reference "R?") (unit 1) (value "R_Small") (footprint "")
+    )
+    (path "/0c0442e2-0379-476d-aa5a-9a1d983a9f57/0f5d8f63-8313-43a3-89cd-b6f26ec6f592"
+      (reference "U?") (unit 1) (value "OPAMP") (footprint "")
+    )
+    (path "/0c0442e2-0379-476d-aa5a-9a1d983a9f57/b238c812-60fd-420e-b363-3e26d74e4527"
+      (reference "U?") (unit 1) (value "OPAMP") (footprint "")
+    )
+  )
+)
